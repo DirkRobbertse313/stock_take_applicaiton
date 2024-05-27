@@ -2,9 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\InventoryController;
-use App\Http\Controllers\StockOnHandController;
 
 Route::get('/', function () {
     return view('welcome');
